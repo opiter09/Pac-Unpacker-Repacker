@@ -1,5 +1,5 @@
 # Pac-Unpacker-Repacker
-The code is mostly just a python translation of the Pac unpacking/repacking code used in the YGO NDS Randomizer, found at https://github.com/mSpoeth/YgoNdsRandomizer.
+The code is mostly just a python translation of the Pac unpacking/repacking code used in the YGO NDS Randomizer, found at https://github.com/mSpoeth/YgoNdsRandomizer. That code is under an MIT License, reproduced here, so please don't sue me.
 
 # Usage
 This utility is command-line only. If you came here expecting a nice UI like the program I got this from, fughetaboutit. To prepare, install python (no other dependencies are needed AFAIK), and then place main.py and the pac you want to use in the same directory. CD there, and then type either:
