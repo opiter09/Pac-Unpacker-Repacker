@@ -15,4 +15,6 @@ to repack all files listed in that pac and found in a folder in the CD'd directo
 WARNING: the program will always name the new pac file "repackedOutput.pac," and it always creates it in append mode. So please, *please* move that file to a different directory before doing another repacking.
 
 # Limitations
-I made a point of getting it to let you change file sizes. However, you cannot change the amount of files nor their names. If someone ever actually sees this and is interested in that, I can make it happen, but I see no point presently.
+I made a point of getting it to let you change file sizes. However, you cannot change the amount of files nor their names. If someone ever actually sees this and is interested in that, I can make it happen, but I see no point presently. 
+
+Also, some pacs cannot be unpacked with this. Thye just have a different structure. But a good chunk of them work, and I don't really know what I'm doing, so I'm not gonna try and deal with that.
