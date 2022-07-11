@@ -82,7 +82,7 @@ if (len(tableOfFileNames) != len(tableOfFiles)):
     print("Error! " + str(len(tableOfFileNames)) + " file names but " + str(len(tableOfFiles)) + " files!")
     sys.exit()
 
-if (sys.argv[2] == "-u"):
+if (len(sys.argv) == 2) or (sys.argv[2] == "-u"):
     try:
         os.mkdir("output")
     except OSError as error:
@@ -99,7 +99,7 @@ if (sys.argv[2] == "-u"):
         newFile.write(bytE[thisFrom:thisTo])
         newFile.close()
 
-if (sys.argv[2] == "-r"):
+if (len(sys.argv) == 3) and (sys.argv[2] == "-r"):
     newPac = open("repackedOutput.pac", "ab")
     newPac.write(bytE[0:fileNamesBeginning])
     newPac.write(fileNames[0:8])
