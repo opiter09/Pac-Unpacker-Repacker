@@ -100,6 +100,8 @@ if (len(sys.argv) == 2) or (sys.argv[2] == "-u"):
         newFile.close()
 
 if (len(sys.argv) == 3) and (sys.argv[2] == "-r"):
+    newPac = open("repackedOutput.pac", "wb")
+    newPac.close()
     newPac = open("repackedOutput.pac", "ab")
     newPac.write(bytE[0:fileNamesBeginning])
     newPac.write(fileNames[0:8])
